@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "NetRev",
+  "version": "0.1",
+  "description": "Enhance your Netflix experience with IMDb ratings displayed directly on the Netflix interface.",
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.netflix.com/*"],
+      "js": ["content.js"],
+      "css": ["styles.css"]
+    }
+  ],
+
+  "icons": {
+  "128": "icon.png"
+}
+
+
+
+}
